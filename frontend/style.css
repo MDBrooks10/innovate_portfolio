@@ -1,0 +1,47 @@
+/* Comment */
+/* Ctrl+forward slash */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #659dbd;
+    margin: 0%;
+}
+
+#myself_button {
+    background-color: #8D8741;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 900%;
+    margin: 0%;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.content {
+    align-self: center;
+    border: 5px solid black;
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+}
+
+#zigpic {
+    width: 20%;
+    float: right;
+    border: 5px solid black;
+    margin: 5px;
+}

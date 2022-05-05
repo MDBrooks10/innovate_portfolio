@@ -8,7 +8,6 @@ for x in alphabet:
     print(x)
 
 
-
 def letter_number():
     user_input = int(input("Pick a number between 1 and 26..."))
     index_prop = user_input -1
