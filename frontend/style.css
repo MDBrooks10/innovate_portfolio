@@ -1,42 +1,57 @@
 /* Comment */
 /* Ctrl+forward slash */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Play:wght@400;700&display=swap');
 
 body {
     background-color: #659dbd;
     margin: 0%;
+    font-family: 'Play', sans-serif;
 }
 
-#myself_button {
-    background-color: #8D8741;
+#navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav {
-    background-color: white;
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0%;
+.navlinks {
+    font-size: 50px;
+    font-family: 'Play', sans-serif;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Anton', sans-serif;
     font-size: 900%;
     margin: 0%;
 }
 
 h2 {
-    font-family: 'Anton', sans-serif;
+    margin: 10px;
 }
 
 .content {
-    align-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    /* align-items: center; */
     border: 5px solid black;
-    width: 80%;
+    /* width: 80%; */
     margin: 5px;
     padding: 10px;
+}
+
+.content_me {
+    display: flex;
+    /* min-height: 100vh; */
+    flex-flow: row wrap;
+    border: 5px solid red
+}
+
+.content_dog {
+    display: flex;
+    border: 5px solid green;
 }
 
 #zigpic {
@@ -44,4 +59,9 @@ h2 {
     float: right;
     border: 5px solid black;
     margin: 5px;
+}
+
+.content_van {
+    display: flex;
+    border: 5px solid blue;
 }
