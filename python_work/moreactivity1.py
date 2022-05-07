@@ -1,10 +1,10 @@
 print("Enter a number...")
 
-num = input("")
-
 def num_in():
+    num = input("")
     try:
         print(f"You have chosen the number {num}.")
+        print(type(int(num)))
 
     except:
         print("Error!")
@@ -12,5 +12,3 @@ def num_in():
         num_in()
 
 num_in()
-
-print(type(int(num)))
