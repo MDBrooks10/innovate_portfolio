@@ -1,6 +1,5 @@
-print("Enter a number...")
-
 def num_in():
+    print("Enter a number...")
     num = input("")
     try:
         print(f"You have chosen the number {num}.")
@@ -8,7 +7,7 @@ def num_in():
 
     except:
         print("Error!")
-        print("Unknown input")
+        print(f"{num} is not a number")
         num_in()
 
 num_in()
