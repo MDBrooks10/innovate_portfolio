@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title></title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><h3><a href="{{ url_for('my_view.home') }}">Home</a></h3></li>
+            <li><h3><a href="{{ url_for('my_view.theman') }}">The Man</a></h3></li>
+            <li><h3><a href="{{ url_for('my_view.thedog') }}">The Dog</a></h3></li>
+            <li><h3><a href="{{ url_for('my_view.thevan') }}">The Van</a></h3></li>
+        </ul>
+    </nav>
+
+    <header>This is my header.</header>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer>This is my footer.</footer>
+    <aside>This has extended from base.</aside>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="{{ url_for('static', filename='app.js')}}"></script>           <!--Javascript linked-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">  <!--CSS linked-->
+    <title>JavaScript Events</title>
+</head>
+<body onload="darkCheck()">
+<nav>
+    <ul>
+        <li><a href="{{ url_for('my_view.index') }}">Javascript</a></li>
+        <li><a href="{{ url_for('my_view.page1') }}">Page 1</a></li>            <!-- Links to 5 different web pages handled in views.py-->
+        <li><a href="{{ url_for('my_view.page2') }}">Page 2</a></li>
+        <li><a href="{{ url_for('my_view.page3') }}">Page 3</a></li>            <!--Navbar gives additional support for linking-->
+        <li><a href="{{ url_for('my_view.page4') }}">Page 4</a></li>
+        <li><a href="{{ url_for('my_view.pageadmin') }}">Admin</a></li>
+    </ul>
+</nav>
+
+
+{% block content %}
+
+
+
+
+
+{% endblock %}
+</body>
+</html>

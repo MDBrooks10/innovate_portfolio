@@ -9,7 +9,7 @@ countries_dict = {
 countries_dict.setdefault("Denmark","Copenhagen")       #   Added another two
 countries_dict.setdefault("Norway", "Oslo")             #       entries to the dictionary
 
-print(countries_dict.items())                           #   I prefer to print as items 
+print(countries_dict.items())                           #   Print as items 
                                                         #       so that it's easier to visualise
 countries_dict["U.K."] = "English"
 countries_dict["France"] = "French"

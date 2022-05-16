@@ -1,0 +1,11 @@
+$mainAccent: hsl(348, 85%, 54%);
+$secondaryAccent: #4f4db3;
+$headFont: "Poiret One", cursive;
+$contentFont: "Josefin Sans", sans-serif;
+
+@mixin heading($special) {
+font-family: $headFont;
+color: $special;
+text-align: center;
+margin-top: 0px;
+}
